@@ -16,7 +16,7 @@ header {
 main {
     margin: 170px auto auto ;
     overflow: auto;
-    max-width: 1400px;
+    max-width: 100%;
 }
 
 
@@ -27,10 +27,20 @@ main {
     margin-left: 3px;
     margin-right: 3px;
     padding-left: 0;
-    width: 180px;
+    width: 120px;
     padding-left: 0px;
     padding-right: 0px;
 
+}
+.menu {
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+    
+}
+ul {
+    padding-left: 0;
+    
 }
 .menu li, .submenu li {
     display: inline;
@@ -46,12 +56,7 @@ main {
     font-size: 20px;
     color: silver;
 }
-.menu {
-    display: inline-block;
-    width: 80%;
-    margin: 0;
-    
-}
+
 .menu .icon-user, .icon-bubble, .icon-menu {
     text-decoration: none;
     margin-right: 30px;
@@ -76,7 +81,7 @@ hr {
     margin: 5px 10px;
     position: relative;
 }
- .submenu ul div li {
+.submenu ul div li {
     position: absolute;
     left: 20px;
     bottom: 20px;
@@ -93,41 +98,33 @@ hr {
 .menu .input {
     display: inline-block;
     width: 80%;
-    background-color: #EFEFEF;
+    background-color: #efefef;
 }
 .input div {
-display: inline-block;
-margin: 10px; 
+    display: inline-block;
+    margin: 10px; 
 }
 
 
 
 /*Estilos iconos*/
 .icon-pinterest {
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 60px;
     color: rgb(172, 27, 27);
+    position: relative;
+    top:10px;
+    
 }
-
+.icon-pushpin, .icon-checkmark {
+    font-size: 10px;
+    color: silver;
+}
 .icon-search {
     position: relative;
     right: 560px;
 }
 /*Estilos botones*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 button {
     font-weight: bold;
     color: #fff;
@@ -209,11 +206,6 @@ h4 {
     width:70%;
     margin-top: 10px;
 }
-.icon-pushpin, .icon-checkmark {
-    font-size: 10px;
-    color: gray;
-}
-
 
 .user-letter {
     color: #fff;
