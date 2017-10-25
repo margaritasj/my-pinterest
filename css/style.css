@@ -14,7 +14,7 @@ header {
     z-index: 1000;
 }
 main {
-    margin: 170px auto auto ;
+    margin: 190px auto auto ;
     overflow: auto;
     max-width: 100%;
 }
@@ -243,8 +243,11 @@ h4 {
 /*Agregando efecto contraste para las imagenes*/
 img {
     
-    filter: contrast(90%);
+    filter: contrast(80%);
 }
 img:hover{  
-    filter:none;    
+    filter:none;
+   
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
 }
