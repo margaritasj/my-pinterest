@@ -133,6 +133,9 @@ button {
     border-radius: 10px;
     border: none;
 }
+button:hover {
+    background-color: darkred;
+}
 .boton-1 {
     width: 150px;
     background-color: #745060;  
@@ -235,4 +238,13 @@ h4 {
     position: relative;
     left: 35px;
     z-index: inherit;
+}
+
+/*Agregando efecto contraste para las imagenes*/
+img {
+    
+    filter: contrast(90%);
+}
+img:hover{  
+    filter:none;    
 }
