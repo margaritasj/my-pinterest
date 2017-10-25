@@ -1,8 +1,8 @@
 # My Pinterest #
 
-> __Replica la siguiente maqueta (images: img-coders)__
+> __Crea una réplica de Pinterest con las imágenes que más te gusten :)__
 
-![](https://laboratoria.github.io/pinterestify/)
+![](https://laboratoria.github.io/pinterestify/s)
 
 ### Objetivos ###
 
@@ -20,14 +20,18 @@
 
 ### Herramientas utilizadas ###
 
->1.HTML5
->2.CSS3
+> 1. HTML5.
+> 2. CSS3.
 
 ### Estructura de mis carpetas en GitHub ###
-```nuestras-coders
+```Pinterest
 1. assets
     - images
         - todas las imagenes que se utilizaran.
+    - icons
+        - todas las iconos a utilizar(Fuentes y estilos).
+    - links
+        - todas las links a necesitar(enlazado con mi index.html).
 2. css
     - style.css
 3. js
