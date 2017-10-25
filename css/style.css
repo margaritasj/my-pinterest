@@ -1,0 +1,246 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    z-index: 1000;
+}
+main {
+    margin: 170px auto auto ;
+    overflow: auto;
+    max-width: 1400px;
+}
+
+
+/*Estilos Menu y Submenu*/
+.box-logo {
+    display: inline-block;
+    
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 0;
+    width: 180px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.menu li, .submenu li {
+    display: inline;
+    list-style: none;
+}
+.menu, .submenu {
+    display: inline-block;
+    text-align: center; 
+}
+.text-js {
+    position: relative;
+    right: 550px;
+    font-size: 20px;
+    color: silver;
+}
+.menu {
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+    
+}
+.menu .icon-user, .icon-bubble, .icon-menu {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #b5b5b5;   
+}
+hr {
+    margin-bottom: 0;
+}
+
+.submenu {
+    font-size: 18px;
+    width: 100%;
+    padding-bottom: 0;
+    float: right;
+}
+.submenu div {
+    display: inline-block;
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px 10px;
+    position: relative;
+}
+ .submenu ul div li {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+ }
+
+
+/*Texto javascript*/
+.input  {
+    text-align: right;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.menu .input {
+    display: inline-block;
+    width: 80%;
+    background-color: #EFEFEF;
+}
+.input div {
+display: inline-block;
+margin: 10px; 
+}
+
+
+
+/*Estilos iconos*/
+.icon-pinterest {
+    font-size: 30px;
+    margin-left: 60px;
+    color: rgb(172, 27, 27);
+}
+
+.icon-search {
+    position: relative;
+    right: 560px;
+}
+/*Estilos botones*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.boton-1 {
+    width: 150px;
+    background-color: #745060;  
+}
+
+.boton-2 {
+    background-color:#ab8b6f;
+    width: 110px;
+}
+
+.boton-3 {
+    background-color: #88735d;
+    width: 80px;
+}
+
+.boton-4 {
+    background-color: #8e6e52;
+    width: 80px;
+}
+
+.boton-5 {
+    background-color: #9b944b;
+    width: 150px;
+}
+
+.boton-6 {
+    background-color: #82725a;
+    width: 100px;
+}
+
+.boton-7 {
+    background-color: #888081;
+    width: 80px;
+}
+
+.boton-8 {
+    background-color: #9a775b;
+    width: 100px;
+}
+
+.boton-9 {
+    background-color: #af7f74;
+    width: 100px;
+}
+
+
+
+.first-column, .second-column, .third-column {
+    width: 33%;
+    float: left;
+}
+
+.first-column figure img, .second-column figure img, .third-column figure img {
+   
+    width: 100%;
+    border-radius: 20px;
+}
+
+figure a {
+text-decoration: none;
+color: #000;
+}
+
+h4 {
+    display: inline-block;
+    margin-right: 180px;
+    margin-bottom: 5px;
+}
+
+.text p{
+    width:70%;
+    margin-top: 10px;
+}
+.icon-pushpin, .icon-checkmark {
+    font-size: 10px;
+    color: gray;
+}
+
+
+.user-letter {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top:4px;
+}
+
+.circle-red {
+    width: 30px;
+    height: 30px;
+    background-color: #d597a1;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.user-name  {
+    position: relative;
+    top: 6px;
+    font-weight: bold;
+}
+
+.hashtag {
+    display: block;
+    position: relative;
+    left: 35px;
+    z-index: inherit;
+}

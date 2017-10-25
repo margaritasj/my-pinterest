@@ -4,44 +4,34 @@
         <meta charset="UTF-8">
         <link rel="icon" type="image/png" href="assets/mifavicon.png" />
         <title>Pinterest</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
         <link href="assets/icons/icomoon/style.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css"> <!--Relacionamos nuestro documento html con el archivo externo css-->
     </head>
     <body>
         
         <header>
+            <figure class="box-logo">
+                <a href="#" class="icon-pinterest"></a>
+            </figure>
+
             <ul class="menu">
-			    <li>
-                    <a href="#" class="red">
-                        <span class="icon-pinterest"></span>
-                    </a>
+                <li class="input">
+                    <div class="icon-search"></div>
+                    <div>
+                        <span class="text-js">javascript</span>
+                    </div>
+                    <div class= "icon-cross"></div>
+                    <div>
+                        <span>All pins </span>
+                    </div>
+                    <div class="icon-circle-down"></div>
                 </li>
-                <li class="input-caja">
-				    <div class="caja-lupa">
-                        <i class="icon-search" aria-hidden="true"></i>
-                        <input type="text" placeholder="javascript">
-                        <i class="icon-cross" aria-hidden="true"></i>
-				    </div>
-                    <div class="caja-pins">
-					    <span>All Pins <i class="icon-circle-down" aria-hidden="true"></i></span>
-				    </div>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon-user"></span>
-                    </a>
-			    </li>
-                <li>
-                    <a href="#">
-                        <span class="icon-menu"></span>
-                    </a>
-			    </li>
-                <li>
-                    <a href="#">
-                        <span class="icon-bubble"></span>
-                    </a>
-			    </li>
-            </ul>
+                <li><a href="#" class="icon-user"></a></li>
+                <li><a href="#" class="icon-menu"></a></li>
+                <li><a href="#" class="icon-bubble"></a></li>
+            </ul> 
+            
             <hr />
             <ul class="submenu">   
                 <nav>
@@ -74,30 +64,206 @@
                     </li>
                 </nav>
             </ul>
-            </header>
+        </header>
         
-
-        <section id="imagenes">
-            <div>
-                <div class="post" id="post-1">
-				    <img class="image" src="assets/images/img-content/img1.jpg" alt="Web Design"/>
-                    <a href="assets/links/post-1.html"></a>
-                </div>
-                <div class="post" id="post-2">
-				    <img class="image" src="assets/images/img-content/img2.jpg" alt="Web Design"/>
-                    <a href="assets/links/post-2.html"></a>
-                </div>
-                <div class="post" id="post-3">
-				    <img class="image" src="assets/images/img-content/img3.jpg" alt="Web Design"/>
-                    <a href="assets/links/post-3.html"></a>
-                </div>
-                <div class="post" id="post-4">
-				    <img class="image" src="assets/images/img-content/img4.jpg" alt="Web Design"/>
-                    <a href="assets/links/post-4.html"></a>
-                </div>						
-            </div>
-        </section>
-
+        <main>
+            <aside class="first-column">
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-1.html" > <img src="assets/images/img-content/img1.jpg" alt="post-1"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-4.html" > <img src="assets/images/img-content/img4.jpg" alt="post-4"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section> 
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-7.html" > <img src="assets/images/img-content/img7.jpg" alt="post-7"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-10.html" > <img src="assets/images/img-content/img10.jpg" alt="post-10"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>  
+            </aside>
+            <aside class="second-column">
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-2.html" > <img src="assets/images/img-content/img2.jpg" alt="post-2"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 63 </span> 
+                                <p>Should You Learn Python, C, or Ruby to Be a Top Coder? (Infographic) | Inc.com</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Alexey Ugnichev</span> 
+                                    <span class="hashtag">#inc.com</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>  
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-5.html" > <img src="assets/images/img-content/img5.jpg" alt="post-5"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-8.html" > <img src="assets/images/img-content/img8.jpg" alt="post-8"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>   
+            </aside>
+            <aside class="third-column">
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-3.html" > <img src="assets/images/img-content/img3.jpg" alt="post-3"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 63 </span> 
+                                <p>Should You Learn Python, C, or Ruby to Be a Top Coder? (Infographic) | Inc.com</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Alexey Ugnichev</span> 
+                                    <span class="hashtag">#inc.com</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-6.html" > <img src="assets/images/img-content/img6.jpg" alt="post-6"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>
+                <section>
+                    <figure> 
+                        <a href="assets/links/post-9.html" > <img src="assets/images/img-content/img9.jpg" alt="post-9"> 
+                            <div class="text">
+                                <h4 class="title">Gatitos tiernos</h4> 
+                                <span class="icon-pushpin"> 36,6k</span>  
+                                <span class="icon-checkmark"> 0 </span> 
+                                <p>HTML and Javascript Cheat Sheet for Site Designers</p>                          
+                            </div>
+                                <div class="user"> 
+                                    <div class="circle-red"> 
+                                        <span class ="user-letter">B</span>
+                                    </div> 
+                                    <span class="user-name">Jamie Thomson</span> 
+                                    <span class="hashtag">#scoop.it</span> 
+                            </div>
+                        </a>    
+                    </figure>
+                </section>     
+            </aside>
+        </main>
         <script type="text/javascript" src="js/app.js" ></script>
     </body>
 </html>
